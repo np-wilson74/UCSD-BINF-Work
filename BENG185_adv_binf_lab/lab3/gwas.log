@@ -1,0 +1,33 @@
+PLINK v1.90b6.9 64-bit (4 Mar 2019)
+Options in effect:
+  --allow-no-sex
+  --bfile gtdata_EUR
+  --covar /home/n4wilson/week3/gtdata_EUR.eigenvec
+  --linear hide-covar
+  --maf 0.05
+  --out /home/n4wilson/week3/gwas
+  --pheno gtdata_EUR.phen
+
+Hostname: dsmlp-jupyter-n4wilson
+Working directory: /home/n4wilson/week3
+Start time: Sun Apr 25 20:35:43 2021
+
+Random number seed: 1619408143
+386680 MB RAM detected; reserving 193340 MB for main workspace.
+9137299 variants loaded from .bim file.
+395 people (0 males, 0 females, 395 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to /home/n4wilson/week3/gwas.nosex .
+395 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 5 covariates loaded.
+Before main variant filters, 395 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999963.
+8458892 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+678407 variants and 395 people pass filters and QC.
+Phenotype data is quantitative.
+Writing linear model association results to
+/home/n4wilson/week3/gwas.assoc.linear ... done.
+
+End time: Sun Apr 25 20:39:32 2021

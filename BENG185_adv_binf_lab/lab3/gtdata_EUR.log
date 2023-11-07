@@ -1,0 +1,33 @@
+PLINK v1.90b6.9 64-bit (4 Mar 2019)
+Options in effect:
+  --file /datasets/cs185s-sp19-public/week3/gtdata_1000Genomes
+  --keep /home/mgymrek/week3/eur_samples.keep
+  --make-bed
+  --out /home/mgymrek/week3/gtdata_EUR
+
+Hostname: dsmlp-jupyter-mgymrek
+Working directory: /home/mgymrek
+Start time: Sat Apr 13 22:10:58 2019
+
+Random number seed: 1555218658
+322250 MB RAM detected; reserving 161125 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (9137299 variants, 2504 people).
+--file: /home/mgymrek/week3/gtdata_EUR-temporary.bed +
+/home/mgymrek/week3/gtdata_EUR-temporary.bim +
+/home/mgymrek/week3/gtdata_EUR-temporary.fam written.
+9137299 variants loaded from .bim file.
+2504 people (0 males, 0 females, 2504 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to /home/mgymrek/week3/gtdata_EUR.nosex .
+--keep: 395 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 395 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.999963.
+9137299 variants and 395 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to /home/mgymrek/week3/gtdata_EUR.bed +
+/home/mgymrek/week3/gtdata_EUR.bim + /home/mgymrek/week3/gtdata_EUR.fam ...
+done.
+
+End time: Sat Apr 13 22:29:24 2019
